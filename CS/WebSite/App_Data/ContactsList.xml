@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContactsList>
+  <Item id="1" namefirst="John1" surname="Smith1"/>
+  <Item id="2" namefirst="John2" surname="Smith2"/>
+  <Item id="3" namefirst="John3" surname="Smith3"/>
+  <Item id="4" namefirst="John4" surname="Smith4"/>
+  <Item id="5" namefirst="John5" surname="Smith5"/>
+  <Item id="6" namefirst="John6" surname="Smith6"/>
+  <Item id="7" namefirst="John7" surname="Smith7"/>
+  <Item id="8" namefirst="John8" surname="Smith8"/>
+  <Item id="9" namefirst="John9" surname="Smith9"/>
+  <Item id="10" namefirst="John10" surname="Smith10"/>
+</ContactsList>

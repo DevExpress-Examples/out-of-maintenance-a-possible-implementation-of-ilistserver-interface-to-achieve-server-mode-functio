@@ -1,4 +1,6 @@
-﻿Imports System
+﻿Option Infer On
+
+Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Web
@@ -36,7 +38,7 @@ Public Class DataObject
 
     Public Sub New()
         Me.origQuery = From contact In context.Contacts _
-                       Select contact
+            Select contact
 
         Me.query = Me.origQuery
         Me.keyExpression = "ContactID"
@@ -117,7 +119,7 @@ Public Class DataObject
             startKeyIndex = index
 
             Dim keysQuery = From obj In query.Skip(index).Take(pageSize) _
-                            Select obj.GetType().GetProperty(Me.keyExpression).GetValue(obj, Nothing)
+                Select obj.GetType().GetProperty(Me.keyExpression).GetValue(obj, Nothing)
             Dim keysArray = keysQuery.ToArray()
 
             Me.keys = Array.CreateInstance(keysQuery.ElementType, keysArray.Count())
@@ -210,7 +212,7 @@ Public Class DataObject
                 startRowIndex = index
 
                 Dim rowsQuery = From obj In query.Skip(index).Take(pageSize) _
-                                Select obj
+                    Select obj
                 Dim rowsArray = rowsQuery.ToArray()
 
                 Me.rows = Array.CreateInstance(rowsQuery.ElementType, rowsArray.Count())

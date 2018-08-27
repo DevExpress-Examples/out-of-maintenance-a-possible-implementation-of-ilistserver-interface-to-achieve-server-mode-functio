@@ -11,8 +11,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <dx:ASPxGridView ID="grid" runat="server" KeyFieldName="ContactID" EnableRowsCache="false"
-            Width="100%">
+        <dx:ASPxGridView ID="grid" runat="server" KeyFieldName="ContactID" OnDataBinding="grid_DataBinding" Width="100%">
         </dx:ASPxGridView>
     </div>
     </form>

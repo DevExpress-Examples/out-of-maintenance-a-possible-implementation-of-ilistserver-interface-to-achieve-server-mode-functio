@@ -7,7 +7,11 @@ using System.Web.UI.WebControls;
 
 public partial class _Default : System.Web.UI.Page {
     protected void Page_Init(object sender, EventArgs e) {
+        if(!IsPostBack)
+            grid.DataBind();
+    }
+
+    protected void grid_DataBinding(object sender, EventArgs e) {
         grid.DataSource = new DataObject();
-        grid.DataBind();
     }
 }

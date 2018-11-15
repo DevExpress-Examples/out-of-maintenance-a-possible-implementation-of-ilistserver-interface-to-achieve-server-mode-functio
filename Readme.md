@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DataObject.cs](./CS/WebSite/App_Code/DataObject.cs) (VB: [DataObject.vb](./VB/WebSite/App_Code/DataObject.vb))
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
+<!-- default file list end -->
 # A possible implementation of IListServer interface to achieve Server Mode functionality
 
 ### Disclaimer

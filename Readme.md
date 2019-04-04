@@ -4,7 +4,7 @@
 * [DataSourceWrapper.cs](./CS/WebSite/App_Code/Grid/Binding/DataSourceWrapper.cs) (VB: [DataSourceWrapper.vb](./VB/WebSite/App_Code/Grid/Binding/DataSourceWrapper.vb))
 * [ObjectData_DataClass.cs](./CS/WebSite/App_Code/Grid/Binding/ObjectData_DataClass.cs) (VB: [ObjectData_DataClass.vb](./VB/WebSite/App_Code/Grid/Binding/ObjectData_DataClass.vb))
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # A possible implementation of IListServer interface to achieve Server Mode functionality
 

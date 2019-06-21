@@ -7,6 +7,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # A possible implementation of IListServer interface to achieve Server Mode functionality
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e166/)**
+<!-- run online end -->
 
 
 <p>The main aim of the sample is to demonstrate one of possible ways to implement Server Mode by implementing the IListServer interface.<br />

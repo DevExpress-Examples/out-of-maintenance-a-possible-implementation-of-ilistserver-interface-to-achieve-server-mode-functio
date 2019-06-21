@@ -6,6 +6,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # A possible implementation of IListServer interface to achieve Server Mode functionality
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e166/)**
+<!-- run online end -->
 
 ### Disclaimer
 This example is based on the undocumented internal API and targets advanced developers who are experts in the data access technology that will be used to retrieve data. In addition, implementing a custom Server Mode collection requires researching the source code of existing Server Mode components and our Data Grid. Refer to [Documentation for the IListServer and IAsyncListServer interfaces][1] for additional information.
